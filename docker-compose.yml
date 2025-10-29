@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  mysql:
+    image: mysql:latest
+    container_name: mysql_db
+    environment:
+      MYSQL_ROOT_PASSWORD: 123456
+      MYSQL_DATABASE: db_ecomerce
+      MYSQL_USER: api_user
+      MYSQL_PASSWORD: 1234
+    ports:
+      - "3306:3306"
+# crear un metodo , que devuelva  un list de users , que pueda ver todo los usarios de bbdd public list<user>
+
+
+# devolver 1 usuario ha de ser tipo list  y los demas tipo int 

@@ -1,4 +1,4 @@
-package acces.dades.activitat2.ra2.activitat_2_ra2_entrega_users.repository;
+package acces.dades.activitat2.ra2.activitat_2_ra2_entrega.repository;
 import java.time.LocalDateTime;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -7,7 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 
-import acces.dades.activitat2.ra2.activitat_2_ra2_entrega_users.models.Users;
+import acces.dades.activitat2.ra2.activitat_2_ra2_entrega.models.Users;
 
 public class userRepository {
 

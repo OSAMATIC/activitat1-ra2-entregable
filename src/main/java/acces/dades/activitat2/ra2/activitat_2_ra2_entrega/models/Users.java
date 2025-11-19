@@ -1,4 +1,4 @@
-package acces.dades.activitat2.ra2.activitat_2_ra2_entrega_users.models;
+package acces.dades.activitat2.ra2.activitat_2_ra2_entrega.models;
 
 
 import java.sql.Timestamp;

@@ -1,4 +1,4 @@
-package acces.dades.activitat2.ra2.activitat_2_ra2_entrega_users;
+package acces.dades.activitat2.ra2.activitat_2_ra2_entrega;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

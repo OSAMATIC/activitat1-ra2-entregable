@@ -1,4 +1,4 @@
-  package acces.dades.activitat2.ra2.activitat_2_ra2_entrega_users.controllers;
+  package acces.dades.activitat2.ra2.activitat_2_ra2_entrega.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -7,10 +7,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import acces.dades.activitat2.ra2.activitat_2_ra2_entrega_users.repository.userRepository;
+import acces.dades.activitat2.ra2.activitat_2_ra2_service.UserService;
 
 import org.springframework.web.bind.annotation.PutMapping;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.PathVariable;
 
 
